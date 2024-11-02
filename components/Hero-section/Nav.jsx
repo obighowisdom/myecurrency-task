@@ -5,6 +5,7 @@ import { Menu } from "../Data/Menu";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { BsGrid3X2GapFill } from "react-icons/bs";
+import { PiGridNineFill } from "react-icons/pi";
 import { AiFillCloseSquare } from "react-icons/ai";
 import { useRouter } from "next/navigation";
 
@@ -62,12 +63,15 @@ const Nav = () => {
               onClick={toggleMenu}
               className="text-gray-700 focus:outline-none"
             >
-              {isOpen ? <AiFillCloseSquare /> : <BsGrid3X2GapFill size={20} color="#12305B" />}
+              {isOpen ? (
+                <AiFillCloseSquare size={20} color="#12305B" />
+              ) : (
+                <PiGridNineFill size={20} color="#12305B" />
+              )}
             </button>
           </div>
         </div>
       </div>
-      
     </section>
   );
 };
