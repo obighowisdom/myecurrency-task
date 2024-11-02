@@ -18,8 +18,8 @@ const Mission = () => {
             <p className="leading-[26px] text-[16px] font-[400] text-[#21384299]">
               We started Sleepstiq with 1 simple goal: to be your <br /> best
               friend at bedtime. We, just like you, deal with <br /> stress,
-              unease, and trouble sleeping from <br /> people. That's why we
-              created products that aim to -
+              unease, and trouble sleeping from <br /> people. That&apos;s why
+              we created products that aim to -
             </p>
 
             <div>
