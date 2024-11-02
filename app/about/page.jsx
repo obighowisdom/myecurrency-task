@@ -16,7 +16,7 @@ const page = () => {
             <Nav />
 
             <div
-              className="my-[120px] flex flex-col gap-8"
+              className="my-[120px] mx-4 md:mx-0 flex flex-col gap-8"
               data-aos="zoom-y-out"
               data-aos-delay={450}
             >

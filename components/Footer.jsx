@@ -16,8 +16,8 @@ const Footer = () => {
             className="self-center"
           />
           <div className="flex md:flex-row flex-col flex-wrap justify-evenly gap-14">
-            <div className="flex-1 flex flex-wrap justify-between">
-              <div className="flex flex-col gap-6">
+            <div className="flex-1 flex flex-wrap gap-4 md:gap-0 justify-between">
+              <div className="flex flex-col md:gap-6 gap-3">
                 <h3 className="leading-[38px] text-white text-[16px] font-bold font-sans uppercase">
                   Company
                 </h3>
@@ -46,32 +46,32 @@ const Footer = () => {
                   Jobs
                 </Link>
               </div>
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-3 md:gap-6">
                 <h3 className="leading-[38px] text-white text-[16px] font-bold font-sans uppercase">
                   Contact
                 </h3>
                 <Link
                   href=""
-                  className="leading-[40px] font-sans font-[400px] text-[16px] text-[#ABABAB]"
+                  className="md:leading-[40px] leading-[23px] font-sans font-[400px] text-[16px] text-[#ABABAB]"
                 >
                   Phone
                 </Link>
-                <p className="leading-[40px] font-sans font-bold text-[16px] text-[#fff]">
+                <p className="md:leading-[40px] leading-[23px] font-sans font-bold text-[16px] text-[#fff]">
                   +234 708 507 3128
                 </p>
                 <Link
                   href=""
-                  className="leading-[40px] font-sans font-[400px] text-[16px] text-[#ABABAB]"
+                  className="md:leading-[40px] leading-[23px] font-sans font-[400px] text-[16px] text-[#ABABAB]"
                 >
                   Address
                 </Link>
-                <p className="leading-40px] font-sans font-bold text-[16px] text-[#fff]">
+                <p className="md:leading-[40px] leading-[23px] font-sans font-bold text-[16px] text-[#fff]">
                   16, Ogindipe Close, Upston Close
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col gap-6 flex-1">
+            <div className="flex flex-col gap-3 md:gap-6 flex-1">
               <h3 className="leading-[38px] text-white text-[16px] font-bold font-sans uppercase">
                 Consumer Advisory
               </h3>
@@ -91,7 +91,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="flex-1 flex flex-col gap-6 ">
+            <div className="flex-1 flex flex-col gap-3 md:gap-6 ">
               <div className="pl-14 border-l-2 border-[#5D6544] flex flex-col gap-6">
                 <h3 className="leading-[38px] text-white text-[16px] font-bold font-sans uppercase">
                   Get in Touch

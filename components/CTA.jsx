@@ -13,7 +13,7 @@ const CTA = () => {
         plant-based essential oil mist will mellow you out, quiet the mind, and
         lull you to bed.
       </p>
-      <Button className="w-[225px] mb-20 h-[50px]" variant="destructive">
+      <Button className="w-[225px] mb-10 md:mb-14 h-[50px]" variant="destructive">
         Visit Shop
           </Button>
           <Divider />
