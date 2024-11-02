@@ -17,9 +17,9 @@ const Hero = () => {
           <div className="md:ml-[130px] absolute inset-0 mt-5">
             <Nav />
             <div
-              className="my-[120px] flex flex-col gap-8"
+              className="my-[120px] mx-5 md:mx-0 flex flex-col gap-8"
               data-aos="zoom-y-out"
-              data-aos-delay={450}
+              data-aos-delay={200}
             >
               <p className="font-sans text-[18px] font-[400px] leading-[27px] text-[#12305B]">
                 We&apos;re here to help you

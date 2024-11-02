@@ -8,11 +8,11 @@ const page = () => {
   return (
     <section>
       <div className="flex items-center justify-center w-full">
-        <div className="relative bg-[#FBF9F2] w-full md:h-[550px] h-[300px]">
+        <div className="relative bg-[#FBF9F2] w-full md:h-[550px] h-[500px] md:px-0 px-4">
           <div className="md:ml-[130px] absolute inset-0 mt-5">
             <Nav />
 
-            <div className="my-[120px] md:ml-0 ml-4 flex flex-col gap-8">
+            <div className="my-[120px] mx-4 md:mx-0 md:ml-0 ml-4 flex flex-col gap-8">
               <p className="font-sans text-[18px] font-[400px] leading-[27px] text-[#12305B]">
                 We&apos;re here to help you
               </p>

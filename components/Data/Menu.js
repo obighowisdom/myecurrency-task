@@ -10,7 +10,7 @@ export const Menu = [
 
     }, {
         name: 'Shop',
-        url: '/shop',
+        url: '/about',
 
     }, {
         name: 'FAQs',
