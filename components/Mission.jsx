@@ -6,9 +6,9 @@ const Mission = () => {
   return (
     <section className="w-full max-w-[1580px] mx-auto px-4 sm:px-6 lg:px-8">
       <div className="md:ml-[130px] flex flex-wrap md:my-[130px] my-[40px]">
-        <div className="flex-1 items-center mt-14 ">
+        <div className="flex-1 flex md:justify-start justify-center items-center mt-14 ">
           <div
-            className="flex flex-col gap-9 "
+            className="flex flex-col gap-9 w-full md:w-[400px]"
             data-aos="zoom-y-out"
             data-aos-delay={200}
           >
@@ -16,9 +16,9 @@ const Mission = () => {
               <Title name="Our Mission" />
             </div>
             <p className="leading-[26px] text-[16px] font-[400] text-[#21384299]">
-              We started Sleepstiq with 1 simple goal: to be your <br /> best
-              friend at bedtime. We, just like you, deal with <br /> stress,
-              unease, and trouble sleeping from <br /> people. That&apos;s why
+              We started Sleepstiq with 1 simple goal: to be your best
+              friend at bedtime. We, just like you, deal with stress,
+              unease, and trouble sleeping from people. That&apos;s why
               we created products that aim to -
             </p>
 

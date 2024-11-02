@@ -26,7 +26,7 @@ const Nav = () => {
                 <Link
                   key={index}
                   href={item.url}
-                  className={`cursor-pointer focus:font-bold ${
+                  className={`cursor-pointer hover:font-bold focus:font-bold ${
                     router.pathname === item.url ? "font-bold" : ""
                   }`}
                 >

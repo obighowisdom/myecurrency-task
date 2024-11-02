@@ -1,10 +1,15 @@
-import React from "react";
+'use client'
 import Nav from "./Nav";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Partners from "../Partners";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter()
+  const handleRoute = () => {
+    router.push('/about')
+  }
   return (
     <section>
       <div className="flex items-center justify-center w-full">
@@ -30,7 +35,7 @@ const Hero = () => {
                 With the aid of our Melatonin Sleepstiq, we can assure you that
                 you can <br /> get quality sleep.
               </p>
-              <Button className="w-[225px] h-[50px]" variant="destructive">
+              <Button onClick={handleRoute} className="w-[225px] h-[50px]" variant="destructive">
                 Visit Shop
               </Button>
             </div>

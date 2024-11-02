@@ -1,9 +1,14 @@
+'use client'
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Title from "./ui/title";
-import Divider from "./ui/divider";
+import { useRouter } from "next/navigation";
 
 const ShopNow = () => {
+  const router = useRouter();
+  const handleRoute = () => {
+    router.push("/about");
+  };
   return (
     <section className="w-full max-w-[1580px] mx-auto px-4 sm:px-6 lg:px-8">
       <div className="md:ml-[90px] flex md:flex-row flex-col justify-center lg:justify-start md:justify-start items-center md:items-start md:flex-wrap gap-12">
@@ -43,20 +48,19 @@ const ShopNow = () => {
           </div>
         </div>
         <div
-          className="flex flex-col md:items-start items-center gap-8"
+          className="flex flex-col w-full md:w-[400px] md:items-start items-center gap-8"
           data-aos="zoom-y-out"
           data-aos-delay={200}
         >
           <Title name="Shop Now" />
 
           <p className="font-sans text-[#21384299] font-[400px] text-[16px] leading-[26px]">
-            Our Personal Diffuser is an aromatherapy device <br /> that contains
-            a blend of melatonin, lavender, and <br /> chamomile. A few breaths
-            of our plant-based <br /> essential oil mist will mellow you out,
-            quiet the mind, <br />
+            Our Personal Diffuser is an aromatherapy device that contains a
+            blend of melatonin, lavender, and chamomile. A few breaths of our
+            plant-based essential oil mist will mellow you out, quiet the mind,
             and lull you to bed.
           </p>
-          <Button className="w-[225px] h-[50px]" variant="destructive">
+          <Button onClick={handleRoute} className="w-[225px] h-[50px]" variant="destructive">
             Visit Shop
           </Button>
         </div>

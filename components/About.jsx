@@ -28,10 +28,10 @@ const About = () => {
               </div>
             </div>
 
-            <p className="text-[#21384299] font-sans text-[16px] font-[400px] leading-[26px]">
-              There’s no secret sauce, no wizard behind the curtain. What <br />{" "}
-              makes Aerolab tick is an interdisciplinary team with a <br />{" "}
-              framework that fosters candid collaboration.
+            <p className="text-[#21384299] md:w-[465px] w-full font-sans text-[16px] font-[400px] leading-[26px]">
+              There&apos;s no secret sauce, no wizard behind the curtain. What
+              makes Aerolab tick is an interdisciplinary team with a framework
+              that fosters candid collaboration.
             </p>
             <Link href="/" className="flex items-center">
               <MdArrowRight color="#12305B" />
