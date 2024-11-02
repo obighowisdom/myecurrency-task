@@ -54,13 +54,17 @@ const ShopNow = () => {
         >
           <Title name="Shop Now" />
 
-          <p className="font-sans text-[#21384299] font-[400px] text-[16px] leading-[26px]">
+          <p className="font-sans text-center md:text-left text-[#21384299] font-[400px] text-[16px] leading-[26px]">
             Our Personal Diffuser is an aromatherapy device that contains a
             blend of melatonin, lavender, and chamomile. A few breaths of our
             plant-based essential oil mist will mellow you out, quiet the mind,
             and lull you to bed.
           </p>
-          <Button onClick={handleRoute} className="w-[225px] h-[50px]" variant="destructive">
+          <Button
+            onClick={handleRoute}
+            className="w-[225px] h-[50px]"
+            variant="destructive"
+          >
             Visit Shop
           </Button>
         </div>

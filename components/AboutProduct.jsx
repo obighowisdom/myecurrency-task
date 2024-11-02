@@ -34,11 +34,11 @@ const AboutProduct = () => {
         <div className="flex flex-col w-full md:w-[465px] md:items-start items-center gap-8">
           <Title name="About Product" />
 
-          <p className="font-sans text-[#21384299] font-[400px] text-[16px] leading-[26px]">
-            Our Personal Diffuser is an aromatherapy device that contains
-            a blend of melatonin, lavender, and chamomile. A few breaths
-            of our plant-based essential oil mist will mellow you out,
-            quiet the mind, and lull you to bed.
+          <p className="font-sans text-center md:text-left text-[#21384299] font-[400px] text-[16px] leading-[26px]">
+            Our Personal Diffuser is an aromatherapy device that contains a
+            blend of melatonin, lavender, and chamomile. A few breaths of our
+            plant-based essential oil mist will mellow you out, quiet the mind,
+            and lull you to bed.
           </p>
           <div className="">
             <div className="flex gap-3 ">
